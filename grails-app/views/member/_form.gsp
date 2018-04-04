@@ -1,4 +1,4 @@
-<%@ page import="horse.Member" %>
+<%@ page import="ghrc.Member" %>
 
 
 
@@ -34,7 +34,7 @@
 		<g:message code="member.gender.label" default="Gender" />
 		
 	</label>
-	<g:select name="gender" from="${horse.Gender?.values()}" keys="${horse.Gender.values()*.name()}" value="${memberInstance?.gender?.name()}"  noSelection="['': '']"/>
+	<g:select name="gender" from="${ghrc.Gender?.values()}" keys="${ghrc.Gender.values()*.name()}" value="${memberInstance?.gender?.name()}"  noSelection="['': '']"/>
 
 </div>
 
@@ -98,6 +98,15 @@
 		
 	</label>
 	<g:textField name="sicknessDescription" value="${memberInstance?.sicknessDescription}"/>
+
+</div>
+
+<div class="fieldcontain ${hasErrors(bean: memberInstance, field: 'memberId', 'error')} required">
+	<label for="memberId">
+		<g:message code="member.memberId.label" default="Member Id" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="memberId" required="" value="${memberInstance?.memberId}"/>
 
 </div>
 

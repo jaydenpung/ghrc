@@ -1,5 +1,5 @@
 
-<%@ page import="horse.Member" %>
+<%@ page import="ghrc.Member" %>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -127,6 +127,15 @@
 					<span id="dateCreated-label" class="property-label"><g:message code="member.dateCreated.label" default="Date Created" /></span>
 					
 						<span class="property-value" aria-labelledby="dateCreated-label"><g:formatDate date="${memberInstance?.dateCreated}" /></span>
+					
+				</li>
+				</g:if>
+			
+				<g:if test="${memberInstance?.memberId}">
+				<li class="fieldcontain">
+					<span id="memberId-label" class="property-label"><g:message code="member.memberId.label" default="Member Id" /></span>
+					
+						<span class="property-value" aria-labelledby="memberId-label"><g:fieldValue bean="${memberInstance}" field="memberId"/></span>
 					
 				</li>
 				</g:if>

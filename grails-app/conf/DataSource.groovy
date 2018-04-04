@@ -23,7 +23,7 @@ environments {
             username = "sa"
             password = ""
             dbCreate = "update"
-            url = "jdbc:h2:tcp://localhost/~/h2/horse/horse"
+            url = "jdbc:h2:tcp://localhost/~/h2/ghrc/ghrc"
         }
     }
     test {

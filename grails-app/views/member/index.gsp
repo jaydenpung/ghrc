@@ -1,5 +1,5 @@
 
-<%@ page import="horse.Member" %>
+<%@ page import="ghrc.Member" %>
 <!DOCTYPE html>
 <html>
 	<head>
