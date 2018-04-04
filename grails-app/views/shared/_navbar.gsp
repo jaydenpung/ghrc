@@ -2,7 +2,13 @@
   <div class="container">
      <div class="header-main">
         <div class="logo">
-          <h1><a href="index.html">Horse Farm</a></h1>
+          <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-10">
+              <h1><a href="index.html" class="pageTitle">Gombak Horse Riding Club</a></h1>
+            </div>
+          </div>
         </div>
         <div class="top-nav">
         <nav class="cl-effect-20">
@@ -21,6 +27,15 @@
                // Animation complete.
                 });
                });
+
+               jQuery(window).resize(function() {
+                if (jQuery(window).width() < 1000) {
+                  jQuery(".pageTitle").text('GHRC');
+                }
+                else {
+                  jQuery(".pageTitle").text('Gombak Horse Riding Club');
+                }
+              });
             </script>
             <!-- /script-for-menu -->
         </div>
