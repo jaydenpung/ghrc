@@ -1,7 +1,8 @@
 syntax:glob
 
 target
-target/classes
+target/classes/*
+target/work/plugin-classes/*
 target/*
 .target
 target-eclipse
