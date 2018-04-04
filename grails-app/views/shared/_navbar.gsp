@@ -1,11 +1,12 @@
  <div class="header">
   <div class="container">
      <div class="header-main">
-        <div class="logo">
+        <div class="logo" style="width:60%">
           <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-1">
+             <asset:image src="logo.jpg" style="height:50px"/>
             </div>
-            <div class="col-md-10">
+            <div class="col-md-11">
               <h1><a href="index.html" class="pageTitle">Gombak Horse Riding Club</a></h1>
             </div>
           </div>
