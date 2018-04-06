@@ -231,6 +231,7 @@ span.bann-sli-text {
 }
 .rslides img {
   height: auto;
+  max-height: 421px;
   border: 0;
   width:100%;
 }
@@ -1030,7 +1031,7 @@ span.menu{
 .top-nav ul.res li a {
 		font-size: 16px;
 		padding: 0.6em 0;
-		color: #fff;
+		color: black;
 		display: block;
 		border: none;
         text-align: center;

@@ -1,7 +1,7 @@
  <div class="header">
   <div class="container">
      <div class="header-main">
-        <div class="logo" style="width:60%">
+        <div class="logo" style="width:55%">
           <div class="row">
             <div class="col-md-1">
              <asset:image src="logo.jpg" style="height:50px"/>
@@ -19,6 +19,13 @@
             <li><a href="${createLink(action: 'about', controller:'dashboard')}">About</a></li>
             <li><a href="${createLink(action: 'gallery', controller:'dashboard')}">Gallery</a></li>
             <li><a href="${createLink(action: 'contact', controller:'dashboard')}">Contact</a></li>
+            <sec:ifLoggedIn>
+              <li><a href="${createLink(action: 'index', controller:'member')}">Members</a></li>
+              <li><a href="${createLink(action: 'logout', controller:'login')}">Log Out</a></li>
+            </sec:ifLoggedIn>
+            <sec:ifNotLoggedIn>
+              <li><a href="${createLink(action: 'auth', controller:'login')}">Log In</a></li>
+            </sec:ifNotLoggedIn>
            </ul>
         </nav>
           <!-- script-for-menu -->

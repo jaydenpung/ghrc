@@ -15,28 +15,28 @@
                   <ul class="rslides" id="slider4">
                     <li>
                           <div class="col-md-4 banner-left">
-                             <h3>Lorem Ipsum <span class="bann-sli-text"> is simply </span> <span class="bann-sli-text">Dummy text</span></h3>
+                             <h3>Welcome <span class="bann-sli-text"> to </span> <span class="bann-sli-text">GHRC</span></h3>
                           </div>
                            <div class="col-md-8 banner-right">
-                              <asset:image src="h1.jpg" alt="" class="img-responsive"/>
+                              <asset:image src="ghrc/cover1.jpg" alt="" class="img-responsive"/>
                             </div>
                            <div class="clearfix"> </div>
                      </li>
                      <li>
                           <div class="col-md-4 banner-left">
-                            <h3>Lorem Ipsum <span class="bann-sli-text"> is simply </span> <span class="bann-sli-text">Dummy text</span></h3>
+                            <h3>Welcome <span class="bann-sli-text"> to </span> <span class="bann-sli-text">GHRC</span></h3>
                           </div>
                            <div class="col-md-8 banner-right">
-                              <asset:image src="h2.jpg" alt="" class="img-responsive"/>
+                              <asset:image src="ghrc/cover2.jpg" alt="" class="img-responsive"/>
                             </div>
                            <div class="clearfix"> </div>
                      </li>
                       <li>
                           <div class="col-md-4 banner-left">
-                            <h3>Lorem Ipsum <span class="bann-sli-text"> is simply </span> <span class="bann-sli-text">Dummy text</span></h3>
+                            <h3>Welcome <span class="bann-sli-text"> to </span> <span class="bann-sli-text">GHRC</span></h3>
                           </div>
                            <div class="col-md-8 banner-right">
-                              <asset:image src="h3.jpg" alt="" class="img-responsive"/>
+                              <asset:image src="ghrc/cover3.jpg" alt="" class="img-responsive"/>
                             </div>
                            <div class="clearfix"> </div>
                      </li>
@@ -78,7 +78,7 @@
                  <div class="details">
                     <h4><a href="single.html">Lorem Ipsum is simply</a></h4>
                     <p>centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <a class="bannn-btn" href="single.html">Read More</a>
+                    <!-- <a class="bannn-btn" href="single.html">Read More</a> -->
                  </div>
               </div>
               <div class="col-md-3 bann-grid">
@@ -86,7 +86,7 @@
                  <div class="details">
                     <h4><a href="single.html">Lorem Ipsum is simply</a></h4>
                     <p>centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <a class="bannn-btn" href="single.html">Read More</a>
+                    <!-- <a class="bannn-btn" href="single.html">Read More</a> -->
                  </div>
               </div>
               <div class="col-md-3 bann-grid">
@@ -94,7 +94,7 @@
                  <div class="details">
                     <h4><a href="single.html">Lorem Ipsum is simply</a></h4>
                     <p>centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <a class="bannn-btn" href="single.html">Read More</a>
+                    <!-- <a class="bannn-btn" href="single.html">Read More</a> -->
                  </div>
               </div>
               <div class="col-md-3 bann-grid">
@@ -102,7 +102,7 @@
                  <div class="details">
                   <h4><a href="single.html">Lorem Ipsum is simply</a></h4>
                     <p>centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                    <a class="bannn-btn" href="single.html">Read More</a>
+                    <!-- <a class="bannn-btn" href="single.html">Read More</a> -->
                  </div>
               </div>
             <div class="clearfix"> </div>
@@ -112,7 +112,7 @@
 <!--banner strip end here-->
 
 <!--services start here-->
-<div class="services">
+<!-- <div class="services">
     <div class="container">
         <div class="services-main">
               <h2>Our Services</h2>
@@ -139,7 +139,7 @@
             <div class="clearfix"> </div>
         </div>
     </div>
-</div>
+</div> -->
 <!--services end here-->
 
 <!--news start here-->
@@ -184,7 +184,7 @@
     <div class="container">
         <div class="can-help-main">
                <div class="col-md-6 can-help-left">
-                 <a href="single.html"><asset:image src="h4.jpg" alt="" class="img-responsive"/></a>
+                 <a href="single.html"><asset:image src="ghrc/price.jpg" alt="" class="img-responsive"/></a>
                </div>
                <div class="col-md-6 can-help-right">
                 <h4><a href="single.html">Tempore, cum soluta nobis  cumque</a></h4>
