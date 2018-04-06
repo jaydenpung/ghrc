@@ -11,6 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <asset:javascript src="jquery-1.11.0.min.js"/>
 <asset:javascript src="jquery.swipebox.min.js "/>
+<asset:javascript src="application.js "/>
 <link rel="icon" type="image/jpg" href="${asset.assetPath(src: 'logo.jpg')}">
 <!-- Custom Theme files -->
 <asset:stylesheet src="style.css"/>

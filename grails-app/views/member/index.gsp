@@ -3,11 +3,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="main2">
 		<g:set var="entityName" value="${message(code: 'member.label', default: 'Member')}" />
 		<title><g:message code="default.list.label" args="[entityName]" /></title>
 	</head>
 	<body>
+		
 		<a href="#list-member" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;"/></a>
 		<div class="nav" role="navigation">
 			<ul>
@@ -23,6 +24,8 @@
 			<table>
 			<thead>
 					<tr>
+
+						<g:sortableColumn property="name" title="${message(code: 'member.id.label', default: 'Member Id')}" />
 					
 						<g:sortableColumn property="name" title="${message(code: 'member.name.label', default: 'Name')}" />
 					
@@ -42,7 +45,9 @@
 				<g:each in="${memberInstanceList}" status="i" var="memberInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
-						<td><g:link action="show" id="${memberInstance.id}">${fieldValue(bean: memberInstance, field: "name")}</g:link></td>
+						<td><g:link action="show" id="${memberInstance.id}">${fieldValue(bean: memberInstance, field: "memberId")}</g:link></td>
+
+						<td>${fieldValue(bean: memberInstance, field: "name")}</td>
 					
 						<td>${fieldValue(bean: memberInstance, field: "mykad")}</td>
 					

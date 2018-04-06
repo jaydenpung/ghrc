@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="main2">
 		<g:set var="entityName" value="${message(code: 'member.label', default: 'Member')}" />
 		<title><g:message code="default.show.label" args="[entityName]" /></title>
 	</head>
@@ -22,6 +22,17 @@
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>
 			<ol class="property-list member">
+
+			
+			
+				<g:if test="${memberInstance?.memberId}">
+				<li class="fieldcontain">
+					<span id="memberId-label" class="property-label"><g:message code="member.memberId.label" default="Member Id" /></span>
+					
+						<span class="property-value" aria-labelledby="memberId-label"><g:fieldValue bean="${memberInstance}" field="memberId"/></span>
+					
+				</li>
+				</g:if>
 			
 				<g:if test="${memberInstance?.name}">
 				<li class="fieldcontain">
@@ -127,15 +138,6 @@
 					<span id="dateCreated-label" class="property-label"><g:message code="member.dateCreated.label" default="Date Created" /></span>
 					
 						<span class="property-value" aria-labelledby="dateCreated-label"><g:formatDate date="${memberInstance?.dateCreated}" /></span>
-					
-				</li>
-				</g:if>
-			
-				<g:if test="${memberInstance?.memberId}">
-				<li class="fieldcontain">
-					<span id="memberId-label" class="property-label"><g:message code="member.memberId.label" default="Member Id" /></span>
-					
-						<span class="property-value" aria-labelledby="memberId-label"><g:fieldValue bean="${memberInstance}" field="memberId"/></span>
 					
 				</li>
 				</g:if>

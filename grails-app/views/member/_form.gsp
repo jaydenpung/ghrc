@@ -2,6 +2,15 @@
 
 
 
+<div class="fieldcontain ${hasErrors(bean: memberInstance, field: 'memberId', 'error')} required">
+	<label for="memberId">
+		<g:message code="member.memberId.label" default="Member Id" />
+		<span class="required-indicator">*</span>
+	</label>
+	<g:textField name="memberId" required="" value="${memberInstance?.memberId}"/>
+
+</div>
+
 <div class="fieldcontain ${hasErrors(bean: memberInstance, field: 'name', 'error')} ">
 	<label for="name">
 		<g:message code="member.name.label" default="Name" />
@@ -98,15 +107,6 @@
 		
 	</label>
 	<g:textField name="sicknessDescription" value="${memberInstance?.sicknessDescription}"/>
-
-</div>
-
-<div class="fieldcontain ${hasErrors(bean: memberInstance, field: 'memberId', 'error')} required">
-	<label for="memberId">
-		<g:message code="member.memberId.label" default="Member Id" />
-		<span class="required-indicator">*</span>
-	</label>
-	<g:textField name="memberId" required="" value="${memberInstance?.memberId}"/>
 
 </div>
 
