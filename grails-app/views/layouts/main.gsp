@@ -6,7 +6,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Horse Farm A Animal & Pets category Flat bootstrap Responsive  Website Template | Home :: w3layouts</title>
+<title>GHRC - Gombak Horse Riding Club</title>
 <asset:stylesheet src="bootstrap.css"/>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <asset:javascript src="jquery-1.11.0.min.js"/>
@@ -21,8 +21,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Horse Farm Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<meta name="keywords" content="GHRC - Gombak Horse Riding Club, the most affordable horse riding lessons in town." />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--Google Fonts-->
 <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
