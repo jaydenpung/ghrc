@@ -18,12 +18,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		<div class="contact-main">
 			<div class="contact-top">
 				<h2>Contact Us</h2>
-				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.Finibus Bonorum reproduced exact.</p>
+				<p>Visit us at the location below.</p>
 			</div>
 			<div class="map">
-	            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387144.007583421!2d-73.97800349999999!3d40.7056308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1415253431785"  frameborder="0" style="border:0"> </iframe>
+	            <iframe src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=Gombak%20Horse%20Riding%20Club+(Gombak%20Horse%20Riding%20Club)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"  frameborder="0" style="border:0"> </iframe>
             </div>
-			<div class="col-md-6 contact-left">
+			<!-- <div class="col-md-6 contact-left">
 				<h3>Information</h3>
 				<h4>Cicero are also reproduced in their exact original</h4>
 				<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English </p>
@@ -36,7 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <textarea placeholder="Message" required=""></textarea>				
                 <input type="submit" value="send">
 		  </form>
-			</div>
+			</div> -->
 		  <div class="clearfix"> </div>
 		</div>
 	</div>

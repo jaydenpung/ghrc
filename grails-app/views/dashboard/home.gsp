@@ -70,7 +70,7 @@
               </script>
     <!--//End-slider-script-->
     <!--banner-strip start here-->
-<div class="bann-strip">
+<div class="bann-strip" style="display:none">
     <div class="container">
         <div class="bann-strip-main">
               <div class="col-md-3 bann-grid">
@@ -143,7 +143,7 @@
 <!--services end here-->
 
 <!--news start here-->
-<div class="news">
+<!-- <div class="news">
     <div class="container">
         <div class="news-main">
              <div class="col-md-4 news-left">
@@ -176,7 +176,7 @@
             <div class="clearfix"> </div>
         </div>
     </div>
-</div>
+</div> -->
 <!--news end here-->
 
 <!--can help srart here-->
@@ -184,12 +184,12 @@
     <div class="container">
         <div class="can-help-main">
                <div class="col-md-6 can-help-left">
-                 <a href="single.html"><asset:image src="ghrc/price.jpg" alt="" class="img-responsive"/></a>
+                 <a href="${asset.assetPath(src: 'ghrc/price.jpg')}"><asset:image src="ghrc/price.jpg" alt="" class="img-responsive"/></a>
                </div>
                <div class="col-md-6 can-help-right">
-                <h4><a href="single.html">Tempore, cum soluta nobis  cumque</a></h4>
-                <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.</p>
-                <a class="help-btn" href="single.html">View More</a>
+                <h4>Most affordable lessons in town!</h4>
+                <p> We have the most affordable price for various lessons, joyride, outdoor track, archery and more!</p>
+                <!-- <a class="help-btn" href="single.html">View More</a> -->
                </div>
             <div class="clearfix"> </div>
         </div>

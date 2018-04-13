@@ -16,7 +16,7 @@
              <span class="menu"> <asset:image src="icon.png" alt=""/></span>
           <ul class="res">
             <li><a href="${createLink(action: 'home', controller:'dashboard')}">Home</a></li>
-            <li><a href="${createLink(action: 'about', controller:'dashboard')}">About</a></li>
+            <!-- <li><a href="${createLink(action: 'about', controller:'dashboard')}">About</a></li> -->
             <li><a href="${createLink(action: 'gallery', controller:'dashboard')}">Gallery</a></li>
             <li><a href="${createLink(action: 'contact', controller:'dashboard')}">Contact</a></li>
             <sec:ifLoggedIn>
